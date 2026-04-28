@@ -53,10 +53,8 @@ npm install
 npm run dev
 ```
 
-```
 
-🌐 API Used
-https://picsum.photos/
-Example:
-https://picsum.photos/v2/list?page=1&limit=28
-```
+## 🌐 API Used
+
+- [Picsum API](https://picsum.photos/)
+- [Example Endpoint](https://picsum.photos/v2/list?page=1&limit=28)
