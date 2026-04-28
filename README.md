@@ -1,16 +1,62 @@
-# React + Vite
+# 📸 React Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive image gallery built using React.  
+This app fetches images from the Picsum API and displays them in a grid with pagination.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Fetch images from API
+- Pagination (Next / Prev)
+- Responsive gallery layout
+- Loading state handling
+- Click image → opens full image in new tab
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Hooks)
+- Axios
+- Tailwind CSS
+- Picsum API
+
+---
+```
+
+## 📂 Project Structure
+react-gallery-app/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+
+```
+## ⚙️ Installation
+
+1.Clone the repository:
+git clone https://github.com/your-username/react-gallery-app.git
+2.Navigate to project folder:
+cd react-gallery-app
+3.Install dependencies:
+npm install
+4.Run the app:
+npm run dev
+```
+
+```
+
+🌐 API Used
+https://picsum.photos/
+Example:
+https://picsum.photos/v2/list?page=1&limit=28
+```
